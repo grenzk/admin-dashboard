@@ -10,9 +10,14 @@
   font: inherit;
 }
 
+html,
 body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  height: 100%;
+}
+
+body {
+  // font-family: var(--body-font);
+  // font-size: var(--normal-font-size);
 }
 
 ul[role='list'] {
@@ -24,4 +29,17 @@ img,
 svg {
   max-width: 100%;
   display: block;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+header,
+nav,
+main {
+  border: 1px solid limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
