@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 5fr;
+  height: 100%;
+}
+
+header {
+  grid-column: 2 / 3;
+}
+
+nav {
+  grid-row: 1 / 6;
+}
+
+main {
+  grid-row: span 4;
+}
