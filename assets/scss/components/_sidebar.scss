@@ -1,0 +1,30 @@
+nav {
+  background-color: var(--primary-blue);
+  color: var(--neutral-white);
+  display: grid;
+  grid-template: 0.2fr 0.65fr 1fr / 1fr;
+  align-items: start;
+  padding: 1rem;
+}
+
+.nav-items {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  align-items: center;
+  column-gap: 0.5rem;
+  row-gap: 1.5rem;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+}
+
+.title {
+  font-size: var(--biggest-font-size);
+}
+
+.is-big {
+  font-size: 3rem;
+}
+
+.is-small {
+  justify-self: center;
+}
