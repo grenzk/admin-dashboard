@@ -44,4 +44,38 @@ main {
   }
 }
 
+.announcement-cards {
+  grid-row: 2 / 5;
+  display: grid;
+  grid-template-rows: 1fr 0.1fr 1fr;
+}
 
+.announcement-card {
+  background-color: var(--neutral-white);
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin: 1.5rem 0;
+}
+
+.trending-card {
+  background-color: var(--neutral-white);
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2.5rem;
+  display: grid;
+  grid-template: repeat(4, 3rem) / 3rem 1fr;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.trending-text {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+}
