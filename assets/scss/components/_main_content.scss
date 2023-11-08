@@ -2,7 +2,7 @@ main {
   background-color: var(--neutral-gray);
   z-index: -1;
   display: grid;
-  grid-template: 0.05fr 0.4fr 0.4fr 0.4fr / 1fr 1fr 1fr;
+  grid-template: 0fr 0.3fr 0.3fr 0.3fr / 1fr 1fr 1fr;
   padding: 2rem 2rem 2rem 1.3rem;
   gap: 2rem;
   grid-auto-flow: column;
@@ -54,25 +54,29 @@ main {
   background-color: var(--neutral-white);
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 2.5rem;
-  margin-bottom: 3rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.small-text {
+  font-size: var(--small-font-size);
 }
 
 .divider {
   border-top: 1px solid #ccc;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .trending-card {
   background-color: var(--neutral-white);
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 2.5rem;
+  padding: 1.5rem 1.5rem;
   display: grid;
   grid-template: repeat(4, 3rem) / 3rem 1fr;
   align-items: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }
 
 .trending-text {
